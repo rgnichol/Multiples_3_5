@@ -16,8 +16,13 @@ using namespace std;
 int main(int argc, char** argv) {
     
     int sum = 0;
+    int n = 0;
     
-    for (int i = 0; i < 1000; i++) {
+    cout << "Please enter ceiling: ";
+    cin >> n;
+    cout << "\n\n";
+    
+    for (int i = 0; i < n; i++) {
         if (i % 3 == 0 || i % 5 == 0)
             sum += i;
     }//for
