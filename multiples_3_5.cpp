@@ -30,5 +30,5 @@ int main(int argc, char** argv) {
     cout << "Sum = " << sum << "\n";
     
     return 0;
-}
+}//main
 
